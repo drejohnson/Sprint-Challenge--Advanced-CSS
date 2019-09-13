@@ -8,12 +8,12 @@ html {
 }
 
 html, body {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: @body-font;
   color: @main-font-color;
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Russo One', sans-serif;
+  font-family: @heading-font;
   color: @header-font-color;
 }
 
@@ -30,9 +30,14 @@ p {
   line-height: 1.4;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
   max-width: 800px;
   width: 100%;
-  margin: 0 auto;  
+  margin: 9rem auto 0; 
 }
 
