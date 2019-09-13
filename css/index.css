@@ -233,17 +233,22 @@ footer {
   color: white;
   text-align: center;
   width: 100%;
-  padding: 1.6rem;
+  padding: 2.4rem;
   margin-top: 2.4rem;
   border-radius: 10px;
   cursor: pointer;
+  transition: 0.5s ease;
   animation: 1s infinite shadow-pulse;
 }
 @media (min-width: 992px) {
   .btn {
-    width: 220px;
-    background-color: #358180;
+    width: 150px;
+    padding: 1.6rem;
   }
+}
+.btn:hover {
+  background-color: white;
+  color: #22283A;
 }
 .home .intro h2 {
   padding: 15px;
