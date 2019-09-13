@@ -1,1 +1,22 @@
-// Mixins Here
+.custom-btn(@bgcolor:#42a3b8, @width:200px, @font-color:white) {
+  display: block;
+  background-color: @bgcolor;
+  width: @width;
+  font-size: 2rem;
+  color: @font-color;
+  text-align: center;
+  width: 100%;
+  padding: @spacing-md;
+  margin-top: @spacing-lg;
+  border-radius: 10px;
+  cursor: pointer;
+
+  @media @desktop {
+    width: 220px;
+    background-color: #358180;
+  }
+}
+
+.animate(@duration:1s, @iteration:infinite, @name) {
+  animation: @duration @iteration @name;
+}
