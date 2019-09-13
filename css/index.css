@@ -171,7 +171,7 @@ img {
   }
   100% {
     /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 0 0 0 35px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
   }
 }
 .topbar {
